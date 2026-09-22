@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npx cypress *)",
+      "Bash(cd \"c:/Users/ESTUDIANTES/Documents/proyectoCypress\" && ls -la \"C:/Users/ESTUDIANTES/AppData/Local/Cypress/Cache/16.1.0/Cypress\" 2>&1 | head -30)",
+      "Read(//c/Users/ESTUDIANTES/AppData/Local/Cypress/Cache/16.1.0/Cypress/**)",
+      "PowerShell(npx cypress run --spec \"cypress/e2e/TC01LoginPage.cy.js\")",
+      "PowerShell($env:ELECTRON_RUN_AS_NODE=\"\"; npx cypress run --spec \"cypress/e2e/TC01LoginPage.cy.js\")",
+      "Bash(curl -s \"https://ultimateqa.com/automation/fake-pricing-page/\")",
+      "Bash(grep -i -A 5 -B 30 '\\\\$0')",
+      "PowerShell($env:ELECTRON_RUN_AS_NODE=\"\"; npx cypress run --spec \"cypress/e2e/plans.cy.js\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" --max-time 10 \"https://ultimateqa.com/automation/fake-pricing-page/\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(git rm *)"
+    ]
+  }
+}
