@@ -36,6 +36,6 @@ describe('TC1LoginSuccessful', () => {
 
     cy.get('button[type="submit"]').click();
 
-    cy.get('#flash').should('contain.text', 'Your password is invalid!');
+    cy.get('#flash').should('contain.text', 'Your psadasdsad');
   });
 });
